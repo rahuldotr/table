@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TABLE</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <style>
+ 	
+ 	table {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  width: 100%;
+  border: 1px;
+  border-color: #F5F5F5;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  border: 1px solid;
+
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+a{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+#head{
+	text-align: center;
+	padding-left: 420px;
+	font-family: sans-serif;
+	font-size: 25px;
+	text-shadow: 5px 5px 10px #9C9C9C;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #03A9F4;
+  color: white;
+  border-radius: 100%;
+
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+i {
+  margin-right: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 80%;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #03A9F4;
+  color: white;
+  font-size: 17px;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ </style>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<body style="width: 96%; ">
+
+<div class="custom-select" style="width:100%;font-family: sans-serif; font-size: 20px; margin-top: 40px; margin-left: 20px;">
+  Show <select style="box-shadow: 2px 2px #9C9C9C;">
+    <option value="0">5</option>
+    <option value="1">4</option>
+    <option value="2">3</option>
+    <option value="3">2</option>
+    <option value="4">1</option>
+  </select>
+  entries 
+<a id="head"><b> Customer</b> <b style="color: #03A9F4;">Details</b> </a>
+<form class="example" action="#" style="margin:auto;max-width:300px; float: right; box-shadow: 3px 3px 10px #BFBFBF ">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  <input type="text" placeholder="Search.." name="search2">
+  
+</form>
+</div>
+
+<table style="margin-top: 40px; margin-left: 20px; box-shadow: 8px 8px 8px #BFBFBF;font-family: sans-serif; text-shadow: 5px 5px 8px #BFBFBF ">
+  <tr>
+    <th width="5%"><b>#</b></th>
+    <th><b>Name</b></th>
+    <th><b>Address</b></th>
+    <th><b>City</b></th>
+    <th><b>Pincode</b></th>
+    <th><b>Country</b></th>
+    <th width="20%" style="padding-left: 30px;"><b>Action</b></th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Smith</td>
+    <td>TC 55/99</td>
+    <td>TVM</td>
+    <td>695002</td>
+    <td>India</td>
+    <td style="text-align: center;"><i class="fas fa-eye" style="font-size:15px; color: blue;"></i>  <i class="fas fa-pen" style="font-size:15px;color: orange;"></i><i class="fas fa-trash" style="font-size:15px;color: red;"></i></td> 
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Smith</td>
+    <td>TC 55/99</td>
+    <td>TVM</td>
+    <td>695002</td>
+    <td>India</td>
+    <td style="text-align: center;"><i class="fas fa-eye" style="font-size:15px; color: blue;"></i>  <i class="fas fa-pen" style="font-size:15px;color: orange;"></i><i class="fas fa-trash" style="font-size:15px;color: red;"></i></td> 
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Smith</td>
+    <td>TC 55/99</td>
+    <td>TVM</td>
+    <td>695002</td>
+    <td>India</td>
+    <td style="text-align: center;"><i class="fas fa-eye" style="font-size:15px; color: blue; "></i>  <i class="fas fa-pen" style="font-size:15px; color: orange;"></i><i class="fas fa-trash" style="font-size:15px;color: red;"></i></td> 
+  </tr>
+    <tr>
+    <td>4</td>
+    <td>Smith</td>
+    <td>TC 55/99</td>
+    <td>TVM</td>
+    <td>695002</td>
+    <td>India</td>
+    <td style="text-align: center;"><i class="fas fa-eye" style="font-size:15px; color: blue;"></i>  <i class="fas fa-pen" style="font-size:15px;color: orange;"></i><i class="fas fa-trash" style="font-size:15px;color: red;"></i></td> 
+  </tr>
+    <tr>
+    <td>5</td>
+    <td>Smith</td>
+    <td>TC 55/99</td>
+    <td>TVM</td>
+    <td>695002</td>
+    <td>India</td>
+    <td style="text-align: center;"><i class="fas fa-eye" style="font-size:15px; color: blue;"></i>  <i class="fas fa-pen" style="font-size:15px;color: orange;"></i><i class="fas fa-trash" style="font-size:15px; color: red;"></i></td>
+  </tr>
+</table>
+
+<div class="pagination" style="float: right;margin-top: 10px;">
+  <a href="#">Previous</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a class="active" href="Http://www.mashupstack.com">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">Next</a>
+</div>
+<div style="font-size: 20px; margin-top: 15px; margin-left: 20px;"> Showing <b>5</b> out of <b>25</b> results</div>
+
+</body>
+</html>
